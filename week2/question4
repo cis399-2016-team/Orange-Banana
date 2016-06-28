@@ -1,0 +1,28 @@
+ubuntu@ip-10-0-6-192:~$ vmstat -s
+       500244 K total memory
+       411036 K used memory
+       222436 K active memory
+       140176 K inactive memory
+        89208 K free memory
+        48900 K buffer memory
+       301368 K swap cache
+            0 K total swap
+            0 K used swap
+            0 K free swap
+         1588 non-nice user cpu ticks
+         4341 nice user cpu ticks
+          902 system cpu ticks
+     16953995 idle cpu ticks
+         2856 IO-wait cpu ticks
+            0 IRQ cpu ticks
+            4 softirq cpu ticks
+          596 stolen cpu ticks
+       369320 pages paged in
+       508844 pages paged out
+            0 pages swapped in
+            0 pages swapped out
+       720275 interrupts
+       483984 CPU context switches
+   1466965928 boot time
+         4601 forks
+

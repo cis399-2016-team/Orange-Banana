@@ -1,0 +1,5 @@
+er@ip-10-0-6-245 ~]$ sudo yum upgrade
+Loaded plugins: priorities, update-motd, upgrade-helper
+amzn-main/latest                                         | 2.1 kB     00:00     
+amzn-updates/latest                                      | 2.3 kB     00:00     
+No packages marked for update

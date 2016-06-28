@@ -1,0 +1,36 @@
+ubuntu@ip-10-0-6-192:~$ ss -l
+Netid  State      Recv-Q Send-Q   Local Address:Port       Peer Address:Port   
+nl     UNCONN     0      0                 rtnl:kernel                 *       
+nl     UNCONN     0      0              tcpdiag:kernel                 *       
+nl     UNCONN     0      0                    7:kernel                 *       
+nl     UNCONN     0      0                    9:kernel                 *       
+nl     UNCONN     0      0                   10:kernel                 *       
+nl     UNCONN     0      0                   11:kernel                 *       
+nl     UNCONN     0      0                   15:systemd-logind/882                *       
+nl     UNCONN     0      0                   15:-4116                  *       
+nl     UNCONN     0      0                   15:kernel                 *       
+nl     UNCONN     0      0                   15:393                    *       
+nl     UNCONN     0      0                   15:-4117                  *       
+nl     UNCONN     0      0                   15:406                    *       
+nl     UNCONN     0      0                   16:1001                   *       
+nl     UNCONN     0      0                   16:kernel                 *       
+nl     UNCONN     0      0                   18:kernel                 *       
+p_raw  UNCONN     0      0                    *:eth0                   *       
+u_str  LISTEN     0      0      @/com/ubuntu/upstart 6680                  * 0      
+u_str  LISTEN     0      0      /var/run/dbus/system_bus_socket 8549                  * 0      
+u_str  LISTEN     0      0      /var/run/acpid.socket 8900                  * 0      
+u_dgr  UNCONN     0      0                    * 7484                  * 0      
+u_dgr  UNCONN     0      0                    * 7485                  * 0      
+u_dgr  UNCONN     0      0             /dev/log 8673                  * 0      
+u_dgr  UNCONN     0      0                    * 8677                  * 0      
+u_dgr  UNCONN     0      0                    * 8897                  * 0      
+u_dgr  UNCONN     0      0                    * 9518                  * 0      
+u_dgr  UNCONN     0      0                    * 26336                 * 0      
+u_dgr  UNCONN     0      0                    * 26667                 * 0      
+u_dgr  LISTEN     0      0      /run/udev/control 7451                  * 0      
+tcp    UNCONN     0      0                    *:ipproto-24762               *:*       
+tcp    UNCONN     0      0                    *:ipproto-68               *:*       
+tcp    UNCONN     0      0                   :::ipproto-26776              :::*       
+tcp    LISTEN     0      128                  *:ssh                   *:*       
+tcp    LISTEN     0      128                 :::ssh                  :::*       
+
