@@ -1,0 +1,1 @@
+From the EC2 Dashboard, select 'Running Instances'. Then, check a box on the lefthand side to select a specific instance. A description of that instance will appear below, and on the righthand side will be the public IP address.
