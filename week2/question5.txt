@@ -1,6 +1,104 @@
 Provide a listing showing all the processes running in one of your instances.
 
-ubuntu@ip-10-0-6-11:~$ ps
- PID TTY          TIME CMD
- 7793 pts/2    00:00:00 bash
- 7810 pts/2    00:00:00 ps
+ubuntu@ip-10-0-6-11:~$ ps aux
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  1.1  36808  5680 ?        Ss   Jun26   0:02 /sbin/init
+root         2  0.0  0.0      0     0 ?        S    Jun26   0:00 [kthreadd]
+root         3  0.0  0.0      0     0 ?        S    Jun26   0:00 [ksoftirqd/0]
+root         5  0.0  0.0      0     0 ?        S<   Jun26   0:00 [kworker/0:0H]
+root         6  0.0  0.0      0     0 ?        S    Jun26   0:00 [kworker/u30:0]
+root         7  0.0  0.0      0     0 ?        S    Jun26   0:01 [rcu_sched]
+root         8  0.0  0.0      0     0 ?        S    Jun26   0:03 [rcuos/0]
+root         9  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/1]
+root        10  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/2]
+root        11  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/3]
+root        12  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/4]
+root        13  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/5]
+root        14  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/6]
+root        15  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/7]
+root        16  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/8]
+root        17  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/9]
+root        18  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/10]
+root        19  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/11]
+root        20  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/12]
+root        21  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/13]
+root        22  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuos/14]
+root        23  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcu_bh]
+root        24  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/0]
+root        25  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/1]
+root        26  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/2]
+root        27  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/3]
+root        28  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/4]
+root        29  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/5]
+root        30  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/6]
+root        31  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/7]
+root        32  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/8]
+root        33  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/9]
+root        34  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/10]
+root        35  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/11]
+root        36  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/12]
+root        37  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/13]
+root        38  0.0  0.0      0     0 ?        S    Jun26   0:00 [rcuob/14]
+root        39  0.0  0.0      0     0 ?        S    Jun26   0:00 [migration/0]
+root        40  0.0  0.0      0     0 ?        S    Jun26   0:04 [watchdog/0]
+root        41  0.0  0.0      0     0 ?        S<   Jun26   0:00 [khelper]
+root        42  0.0  0.0      0     0 ?        S    Jun26   0:00 [kdevtmpfs]
+root        43  0.0  0.0      0     0 ?        S<   Jun26   0:00 [netns]
+root        44  0.0  0.0      0     0 ?        S    Jun26   0:00 [xenwatch]
+root        45  0.0  0.0      0     0 ?        S    Jun26   0:00 [xenbus]
+root        46  0.0  0.0      0     0 ?        R    Jun26   0:17 [kworker/0:1]
+root        47  0.0  0.0      0     0 ?        S<   Jun26   0:00 [writeback]
+root        48  0.0  0.0      0     0 ?        S<   Jun26   0:00 [kintegrityd]
+root        49  0.0  0.0      0     0 ?        S<   Jun26   0:00 [bioset]
+root        50  0.0  0.0      0     0 ?        S<   Jun26   0:00 [kworker/u31:0]
+root        51  0.0  0.0      0     0 ?        S<   Jun26   0:00 [kblockd]
+root        52  0.0  0.0      0     0 ?        S<   Jun26   0:00 [ata_sff]
+root        53  0.0  0.0      0     0 ?        S    Jun26   0:00 [khubd]
+root        54  0.0  0.0      0     0 ?        S<   Jun26   0:00 [md]
+root        55  0.0  0.0      0     0 ?        S<   Jun26   0:00 [devfreq_wq]
+root        57  0.0  0.0      0     0 ?        S    Jun26   0:00 [khungtaskd]
+root        58  0.0  0.0      0     0 ?        S    Jun26   0:00 [kswapd0]
+root        59  0.0  0.0      0     0 ?        SN   Jun26   0:00 [ksmd]
+root        60  0.0  0.0      0     0 ?        S    Jun26   0:00 [fsnotify_mark]
+root        61  0.0  0.0      0     0 ?        S    Jun26   0:00 [ecryptfs-kthre
+root        62  0.0  0.0      0     0 ?        S<   Jun26   0:00 [crypto]
+root        74  0.0  0.0      0     0 ?        S<   Jun26   0:00 [kthrotld]
+root        75  0.0  0.0      0     0 ?        S    Jun26   0:00 [kworker/u30:1]
+root        76  0.0  0.0      0     0 ?        S    Jun26   0:00 [scsi_eh_0]
+root        77  0.0  0.0      0     0 ?        S    Jun26   0:00 [scsi_eh_1]
+root        98  0.0  0.0      0     0 ?        S<   Jun26   0:00 [deferwq]
+root        99  0.0  0.0      0     0 ?        S<   Jun26   0:00 [charger_manage
+root       140  0.0  0.0      0     0 ?        S<   Jun26   0:00 [kpsmoused]
+root       158  0.0  0.0      0     0 ?        S    Jun26   0:00 [kworker/0:2]
+root       201  0.0  0.0      0     0 ?        S    Jun26   0:01 [jbd2/xvda1-8]
+root       202  0.0  0.0      0     0 ?        S<   Jun26   0:00 [ext4-rsv-conve
+root       574  0.0  0.5  10220  2904 ?        Ss   Jun26   0:00 dhclient -1 -v 
+message+   869  0.0  0.2  39224  1212 ?        Ss   Jun26   0:00 dbus-daemon --s
+syslog     887  0.0  2.4 260268 12192 ?        Ssl  Jun26   0:02 rsyslogd
+root       982  0.0  0.1  14536   732 tty4     Ss+  Jun26   0:00 /sbin/getty -8 
+root       990  0.0  0.1  14536   736 tty5     Ss+  Jun26   0:00 /sbin/getty -8 
+root       994  0.0  0.1  14536   736 tty2     Ss+  Jun26   0:00 /sbin/getty -8 
+root       995  0.0  0.1  14536   736 tty3     Ss+  Jun26   0:00 /sbin/getty -8 
+root       997  0.0  0.1  14536   736 tty6     Ss+  Jun26   0:00 /sbin/getty -8 
+root      1089  0.0  0.1   4364   536 ?        Ss   Jun26   0:00 acpid -c /etc/a
+root      1090  0.0  0.1  23652   872 ?        Ss   Jun26   0:00 cron
+daemon    1091  0.0  0.0  19136   164 ?        Ss   Jun26   0:00 atd
+root      1161  0.0  0.1  14536   728 tty1     Ss+  Jun26   0:00 /sbin/getty -8 
+root      1162  0.0  0.1  12784   716 ttyS0    Ss+  Jun26   0:00 /sbin/getty -8 
+root      1190  0.0  0.3  61372  1516 ?        Ss   Jun28   0:02 /usr/sbin/sshd 
+root      1266  0.0  0.0      0     0 ?        S    Jun26   0:00 [kauditd]
+root      1758  0.0  0.0      0     0 ?        S<   Jun28   0:00 [xfsalloc]
+root      1759  0.0  0.0      0     0 ?        S<   Jun28   0:00 [xfs_mru_cache]
+root      1760  0.0  0.0      0     0 ?        S<   Jun28   0:00 [xfslogd]
+root      1781  0.0  0.0      0     0 ?        S<   Jun28   0:00 [bioset]
+root     22865  0.0  0.1  15272   576 ?        S    Jun28   0:00 upstart-file-br
+root     22868  0.0  0.1  15256   576 ?        S    Jun28   0:00 upstart-socket-
+root     29356  0.0  0.1  19472   552 ?        S    Jun28   0:00 upstart-udev-br
+root     29359  0.0  0.2  49580  1132 ?        Ss   Jun28   0:00 /lib/systemd/sy
+root     29985  0.0  0.3  43444  1564 ?        Ss   Jun28   0:00 /lib/systemd/sy
+root     31357  0.0  0.8 105636  4216 ?        Ss   03:02   0:00 sshd: ubuntu [p
+ubuntu   31444  0.0  0.3 105636  1860 ?        S    03:02   0:00 sshd: ubuntu@pt
+ubuntu   31445  0.0  0.7  21180  3600 pts/0    Ss   03:02   0:00 -bash
+ubuntu   31483  0.0  0.2  17160  1288 pts/0    R+   03:05   0:00 ps aux
+ubuntu@ip-10-0-6-11:~$ 
+

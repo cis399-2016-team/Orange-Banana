@@ -1,4 +1,4 @@
-ubuntu@ip-10-0-6-192:~$ ss -l
+ubuntu@ip-10-0-6-11:~$ ss -a
 Netid  State      Recv-Q Send-Q   Local Address:Port       Peer Address:Port   
 nl     UNCONN     0      0                 rtnl:kernel                 *       
 nl     UNCONN     0      0              tcpdiag:kernel                 *       
@@ -6,31 +6,49 @@ nl     UNCONN     0      0                    7:kernel                 *
 nl     UNCONN     0      0                    9:kernel                 *       
 nl     UNCONN     0      0                   10:kernel                 *       
 nl     UNCONN     0      0                   11:kernel                 *       
-nl     UNCONN     0      0                   15:systemd-logind/882                *       
-nl     UNCONN     0      0                   15:-4116                  *       
+nl     UNCONN     0      0                   15:29357                  *       
+nl     UNCONN     0      0                   15:29354                  *       
 nl     UNCONN     0      0                   15:kernel                 *       
-nl     UNCONN     0      0                   15:393                    *       
-nl     UNCONN     0      0                   15:-4117                  *       
-nl     UNCONN     0      0                   15:406                    *       
-nl     UNCONN     0      0                   16:1001                   *       
+nl     UNCONN     0      0                   15:-4119                  *       
+nl     UNCONN     0      0                   15:-4118                  *       
+nl     UNCONN     0      0                   15:systemd-logind/29985                *       
+nl     UNCONN     0      0                   16:993                    *       
 nl     UNCONN     0      0                   16:kernel                 *       
 nl     UNCONN     0      0                   18:kernel                 *       
 p_raw  UNCONN     0      0                    *:eth0                   *       
-u_str  LISTEN     0      0      @/com/ubuntu/upstart 6680                  * 0      
-u_str  LISTEN     0      0      /var/run/dbus/system_bus_socket 8549                  * 0      
-u_str  LISTEN     0      0      /var/run/acpid.socket 8900                  * 0      
-u_dgr  UNCONN     0      0                    * 7484                  * 0      
-u_dgr  UNCONN     0      0                    * 7485                  * 0      
-u_dgr  UNCONN     0      0             /dev/log 8673                  * 0      
-u_dgr  UNCONN     0      0                    * 8677                  * 0      
-u_dgr  UNCONN     0      0                    * 8897                  * 0      
-u_dgr  UNCONN     0      0                    * 9518                  * 0      
-u_dgr  UNCONN     0      0                    * 26336                 * 0      
-u_dgr  UNCONN     0      0                    * 26667                 * 0      
-u_dgr  LISTEN     0      0      /run/udev/control 7451                  * 0      
-tcp    UNCONN     0      0                    *:ipproto-24762               *:*       
+u_str  LISTEN     0      0      /var/run/dbus/system_bus_socket 8541                  * 0      
+u_str  ESTAB      0      0                    * 8621                  * 0      
+u_str  ESTAB      0      0                    * 8622                  * 0      
+u_str  LISTEN     0      0      /var/run/acpid.socket 8934                  * 0      
+u_str  LISTEN     0      0      @/com/ubuntu/upstart 143751                * 0      
+u_str  ESTAB      0      0                    * 143752                * 0      
+u_str  ESTAB      0      0      /var/run/dbus/system_bus_socket 143753                * 0      
+u_str  ESTAB      0      0                    * 143769                * 0      
+u_str  ESTAB      0      0                    * 143771                * 0      
+u_str  ESTAB      0      0      @/com/ubuntu/upstart 143773                * 0      
+u_str  ESTAB      0      0      @/com/ubuntu/upstart 143783                * 0      
+u_str  ESTAB      0      0                    * 149474                * 0      
+u_str  ESTAB      0      0      @/com/ubuntu/upstart 149477                * 0      
+u_str  ESTAB      0      0                    * 149788                * 0      
+u_str  ESTAB      0      0      /var/run/dbus/system_bus_socket 149789                * 0      
+u_str  ESTAB      0      0                    * 454587                * 0      
+u_str  ESTAB      0      0                    * 454588                * 0      
+u_str  ESTAB      0      0                    * 454597                * 0      
+u_str  ESTAB      0      0      /var/run/dbus/system_bus_socket 454598                * 0      
+u_dgr  UNCONN     0      0             /dev/log 8652                  * 0      
+u_dgr  UNCONN     0      0                    * 8931                  * 0      
+u_dgr  UNCONN     0      0                    * 10312                 * 0      
+u_dgr  UNCONN     0      0                    * 146962                * 0      
+u_dgr  UNCONN     0      0                    * 149503                * 0      
+u_dgr  UNCONN     0      0                    * 149504                * 0      
+u_dgr  UNCONN     0      0                    * 149773                * 0      
+u_dgr  UNCONN     0      0                    * 454403                * 0      
+u_dgr  LISTEN     0      0      /run/udev/control 149482                * 0      
+tcp    UNCONN     0      0                    *:ipproto-39675               *:*       
 tcp    UNCONN     0      0                    *:ipproto-68               *:*       
-tcp    UNCONN     0      0                   :::ipproto-26776              :::*       
+tcp    UNCONN     0      0                   :::ipproto-20118              :::*       
 tcp    LISTEN     0      128                  *:ssh                   *:*       
+tcp    ESTAB      0      4080         10.0.6.11:ssh      184.171.60.169:59654   
 tcp    LISTEN     0      128                 :::ssh                  :::*       
+ubuntu@ip-10-0-6-11:~$ 
 
