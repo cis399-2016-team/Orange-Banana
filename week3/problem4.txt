@@ -1,0 +1,7 @@
+ubuntu@ip-10-0-6-192:~$ sudo puppet agent -t
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-6-192.us-west-2.compute.internal
+Info: Applying configuration version '1468299543'
+Notice: /Stage[main]/Sshd/Ssh_authorized_key[jstuemke-key-pair-oregon]/ensure: created
+Notice: /Stage[main]/Sshd/Ssh_authorized_key[CIS399]/ensure: created
+Notice: Finished catalog run in 0.09 seconds

@@ -1,0 +1,8 @@
+ubuntu@ip-10-0-6-192:~$ sudo puppet agent -t
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-6-192.us-west-2.compute.internal
+Info: Applying configuration version '1468277979'
+Notice: /Stage[main]/Sshd/Service[ssh]/ensure: ensure changed 'stopped' to 'running'
+Info: /Stage[main]/Sshd/Service[ssh]: Unscheduling refresh on Service[ssh]
+Notice: Finished catalog run in 0.12 seconds
+
