@@ -1,0 +1,25 @@
+ubuntu@ip-10-0-6-11:~$ sudo puppet agent -t
+Info: Retrieving plugin
+Info: Caching catalog for ip-10-0-6-11.us-west-2.compute.internal
+Info: Applying configuration version '1468299543'
+Notice: /Stage[main]/Sshd/Package[openssh-server]/ensure: ensure changed 'purged' to 'present'
+Notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/content: 
+--- /etc/ssh/sshd_config	2016-07-15 17:27:46.817900000 +0000
++++ /tmp/puppet-file20160715-21793-1bv7qhu	2016-07-15 17:27:47.681900000 +0000
+@@ -49,7 +49,7 @@
+ ChallengeResponseAuthentication no
+ 
+ # Change to no to disable tunnelled clear text passwords
+-#PasswordAuthentication yes
++PasswordAuthentication no
+ 
+ # Kerberos options
+ #KerberosAuthentication no
+
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Filebucketed /etc/ssh/sshd_config to puppet with sum cac079e87c0ae0d77eafc9b285e36348
+Notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/content: content changed '{md5}cac079e87c0ae0d77eafc9b285e36348' to '{md5}db3706831d16ac32d8665fbfb47dbd99'
+Notice: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]/mode: mode changed '0644' to '0444'
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[ssh]
+Info: /Stage[main]/Sshd/File[/etc/ssh/sshd_config]: Scheduling refresh of Service[ssh]
+Notice: /Stage[main]/Sshd/Service[ssh]: Triggered 'refresh' from 2 events
+Notice: Finished catalog run in 1.98 seconds
