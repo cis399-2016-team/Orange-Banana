@@ -1,0 +1,14 @@
+The Puppet code we used to replicate content between your web server instances:
+
+
+	file { "/var/www/html":
+		source => [
+			# from modules/apache/html
+			"puppet:///modules/apache/html",
+		],
+		recurse => true,
+		ensure => directory,
+		mode    => 755,
+		owner   => root,
+		group   => root,
+	}

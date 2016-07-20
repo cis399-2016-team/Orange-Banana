@@ -1,0 +1,8 @@
+10.0.6.253 - - [19/Jul/2016:23:41:35 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.253 - - [19/Jul/2016:23:41:35 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 404 336 "http://orangebanana-1327164200.us-west-2.elb.amazonaws.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.253 - - [19/Jul/2016:23:41:37 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.253 - - [19/Jul/2016:23:41:37 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 404 336 "http://orangebanana-1327164200.us-west-2.elb.amazonaws.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.253 - - [19/Jul/2016:23:41:38 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+
+
+Above is an excerpt from our web server logs. The first couple are all examples of us accessing our web server, though the last one is a health check by the load balancer.

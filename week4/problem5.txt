@@ -1,0 +1,48 @@
+
+Access logs and health checks for Clarence:
+
+
+184.171.60.169 - - [20/Jul/2016:00:44:27 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 404 298 "http://52.10.217.161/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+184.171.60.169 - - [20/Jul/2016:00:44:27 +0000] "GET /favicon.ico HTTP/1.1" 404 288 "http://52.10.217.161/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+184.171.60.169 - - [20/Jul/2016:00:44:34 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 404 298 "http://52.10.217.161/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.253 - - [20/Jul/2016:00:44:38 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.72 - - [20/Jul/2016:00:44:48 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.253 - - [20/Jul/2016:00:45:08 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.72 - - [20/Jul/2016:00:45:18 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.253 - - [20/Jul/2016:00:45:30 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 404 336 "http://orangebanana-1327164200.us-west-2.elb.amazonaws.com/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.253 - - [20/Jul/2016:00:45:38 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+184.171.60.169 - - [20/Jul/2016:00:45:46 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 404 298 "http://52.10.217.161/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.72 - - [20/Jul/2016:00:45:48 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.253 - - [20/Jul/2016:00:46:08 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.72 - - [20/Jul/2016:00:46:18 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.253 - - [20/Jul/2016:00:46:38 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.72 - - [20/Jul/2016:00:46:48 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+184.171.60.169 - - [20/Jul/2016:00:47:08 +0000] "GET /icons/ubuntu-logo.png HTTP/1.1" 404 298 "http://52.10.217.161/" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.253 - - [20/Jul/2016:00:47:08 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.72 - - [20/Jul/2016:00:47:18 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.253 - - [20/Jul/2016:00:47:38 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.72 - - [20/Jul/2016:00:47:48 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.83 - - [20/Jul/2016:00:47:57 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+10.0.6.253 - - [20/Jul/2016:00:48:08 +0000] "GET / HTTP/1.1" 200 11511 "-" "ELB-HealthChecker/1.0"
+
+Access logs and health checks for Maeve:
+
+
+10.0.6.162 - - [20/Jul/2016:00:53:13 +0000] "GET / HTTP/1.1" 200 11820 "-" "Amazon Route 53 Health Check Service; ref:0edbb48a-0a2a-4b6d-9dc5-50485b26caa7; report http://amzn.to/1vsZADi"
+184.171.60.169 - - [20/Jul/2016:00:53:13 +0000] "GET /OrangeBanana.jpg HTTP/1.1" 200 53922 "http://52.32.108.10/foo.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+184.171.60.169 - - [20/Jul/2016:00:53:13 +0000] "GET /favicon.ico HTTP/1.1" 404 501 "http://52.32.108.10/foo.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+184.171.60.169 - - [20/Jul/2016:00:53:14 +0000] "GET /foo.html HTTP/1.1" 200 3651 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+184.171.60.169 - - [20/Jul/2016:00:53:14 +0000] "GET /OrangeBanana.jpg HTTP/1.1" 200 53922 "http://52.32.108.10/foo.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.162 - - [20/Jul/2016:00:53:14 +0000] "GET / HTTP/1.1" 200 11820 "-" "Amazon Route 53 Health Check Service; ref:0edbb48a-0a2a-4b6d-9dc5-50485b26caa7; report http://amzn.to/1vsZADi"
+184.171.60.169 - - [20/Jul/2016:00:53:14 +0000] "GET /favicon.ico HTTP/1.1" 404 501 "http://52.32.108.10/foo.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+184.171.60.169 - - [20/Jul/2016:00:53:14 +0000] "GET /foo.html HTTP/1.1" 200 3651 "-" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+184.171.60.169 - - [20/Jul/2016:00:53:14 +0000] "GET /OrangeBanana.jpg HTTP/1.1" 200 53922 "http://52.32.108.10/foo.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.253 - - [20/Jul/2016:00:53:14 +0000] "GET / HTTP/1.1" 200 11821 "-" "ELB-HealthChecker/1.0"
+184.171.60.169 - - [20/Jul/2016:00:53:14 +0000] "GET /favicon.ico HTTP/1.1" 404 501 "http://52.32.108.10/foo.html" "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.103 Safari/537.36"
+10.0.6.162 - - [20/Jul/2016:00:53:15 +0000] "GET / HTTP/1.1" 200 11820 "-" "Amazon Route 53 Health Check Service; ref:0edbb48a-0a2a-4b6d-9dc5-50485b26caa7; report http://amzn.to/1vsZADi"
+10.0.6.162 - - [20/Jul/2016:00:53:16 +0000] "GET / HTTP/1.1" 200 11820 "-" "Amazon Route 53 Health Check Service; ref:0edbb48a-0a2a-4b6d-9dc5-50485b26caa7; report http://amzn.to/1vsZADi"
+10.0.6.162 - - [20/Jul/2016:00:53:17 +0000] "GET / HTTP/1.1" 200 11820 "-" "Amazon Route 53 Health Check Service; ref:0edbb48a-0a2a-4b6d-9dc5-50485b26caa7; report http://amzn.to/1vsZADi"
+
+
+
+
