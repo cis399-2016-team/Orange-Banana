@@ -1,0 +1,39 @@
+From: no-reply@sns.amazonaws.com
+Subject: ALARM: "OrangeBanana_Bertha-High-Network-In" in US West - Oregon
+Msg:
+
+You are receiving this email because your Amazon CloudWatch Alarm "OrangeBanana_Bertha-High-Network-In" in the US West - Oregon region has entered the ALARM state, because "Threshold Crossed: 1 datapoint (745108.4) was greater than or equal to the threshold (200000.0)." at "Wednesday 27 July, 2016 06:35:35 UTC".
+
+View this alarm in the AWS Management Console:
+https://console.aws.amazon.com/cloudwatch/home?region=us-west-2#s=Alarms&alarm=OrangeBanana_Bertha-High-Network-In
+
+Alarm Details:
+- Name:                       OrangeBanana_Bertha-High-Network-In
+- Description:                Created from EC2 Console
+- State Change:               OK -> ALARM
+- Reason for State Change:    Threshold Crossed: 1 datapoint (745108.4) was greater than or equal to the threshold (200000.0).
+- Timestamp:                  Wednesday 27 July, 2016 06:35:35 UTC
+- AWS Account:                006170570170
+
+Threshold:
+- The alarm is in the ALARM state when the metric is GreaterThanOrEqualToThreshold 200000.0 for 300 seconds. 
+
+Monitored Metric:
+- MetricNamespace:            AWS/EC2
+- MetricName:                 NetworkIn
+- Dimensions:                 [InstanceId = i-e1e05a3c]
+- Period:                     300 seconds
+- Statistic:                  Average
+- Unit:                       not specified
+
+State Change Actions:
+- OK: 
+- ALARM: [arn:aws:sns:us-west-2:006170570170:Orange-Banana-Alarm]
+- INSUFFICIENT_DATA: 
+
+
+--
+If you wish to stop receiving notifications from this topic, please click or visit the link below to unsubscribe:
+https://sns.us-west-2.amazonaws.com/unsubscribe.html?SubscriptionArn=arn:aws:sns:us-west-2:006170570170:Orange-Banana-Alarm:e6e16903-3eba-483f-b1bc-e004fc45ef01&Endpoint=jstuemke@uoregon.edu
+
+Please do not reply directly to this email. If you have any questions or comments regarding this email, please contact us at https://aws.amazon.com/support
