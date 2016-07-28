@@ -1,6 +1,6 @@
 ChilledBeer: Logged in successfully
 Team JIB: Logged in successfully
 Team A: Logged in successfully
-CaluyaCostello: Have not been contacted with username
-That one team: Have not been contacted with username
-Rumpus: Have not been contacted with username
+CaluyaCostello: Logged in successfully
+That one team: Unable to login
+Rumpus: Logged in successfully
